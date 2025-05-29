@@ -1,0 +1,23 @@
+{
+  "name": "repro-for-typescript-go-929",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:js": "tsc --noEmit --extendedDiagnostics src/test-case.ts",
+    "build:go": "tsgo --noEmit --extendedDiagnostics src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grafana/ui": "11.5.2",
+    "jest-environment-jsdom": "29.7.0"
+  },
+  "devDependencies": {
+    "@swc/jest": "0.2.29",
+    "@testing-library/jest-dom": "5.17.0",
+    "@typescript/native-preview": "7.0.0-dev.20250528.1",
+    "typescript": "5.8.3"
+  }
+}
