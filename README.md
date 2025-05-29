@@ -1,0 +1,1 @@
+# repro-for-typescript-go-929
